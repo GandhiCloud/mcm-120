@@ -1,0 +1,18 @@
+---
+# Source: wealthcare-mutual-subscription/templates/21-placement.yaml
+apiVersion: app.ibm.com/v1alpha1
+kind: PlacementRule
+metadata:
+  name: wealthcare-mutual-web
+  namespace: wealth-subscription-ns
+  labels:
+    app: wealthcare-mutual-application
+spec:
+  clusterReplicas: 1
+  clusterLabels:
+    matchExpressions:
+      - key: cloud
+        operator: In
+        values:
+        - IBM
+       
