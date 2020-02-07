@@ -2,7 +2,7 @@
 
 ## Steps
 
-1. Download the this project from the git
+1. Download the this project from git
 
 2. Change the below values according to your cluster in the `/src/mutual-subscription/21-placement.yaml` file
 
