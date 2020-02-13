@@ -73,7 +73,7 @@ spec:
         - name: my-http
           port: 8080
           targetPort: 8080
-          nodePort: 316501
+          nodePort: 31650
       selector:
         app: mcm-mutual-application
         subname: web

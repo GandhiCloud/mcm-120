@@ -26,3 +26,9 @@ sh 01-install.sh
 ```
 
 The application get installed in the mcm hub.
+
+6. Access your application with your browser using the url
+
+```
+http://<<IP_ADDRESS>>:31650
+```
