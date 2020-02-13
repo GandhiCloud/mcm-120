@@ -2,9 +2,9 @@
 
 ## Steps
 
-1. Download the this project from git
+1. Download this project from git
 
-2. Change the below values according to your cluster in the `/src/mutual-subscription/21-placement.yaml` file
+2. Change the below values according to your cluster in the file `/src/mutual-subscription/21-placement.yaml` 
 
 ```
   clusterLabels:
@@ -15,9 +15,9 @@
         - IBM
 ```
 
-3. Goto the `install` folder in the command prompt
+3. Goto `install` folder in command prompt
 
-4. Set the kubetcl context in commmand prompt that points to your mcm hub.
+4. Set kubetcl context in commmand prompt that points to your mcm hub.
 
 5. Run the below command.
 
